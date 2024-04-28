@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Other UI elements (text views, etc.) can be added here -->
+
+    <!-- Entry ID EditText -->
+    <EditText
+        android:id="@+id/entry_id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entry ID" />
+
+    <!-- Restore Button -->
+    <Button
+        android:id="@+id/restore_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restore" />
+
+    <!-- Restore All Button -->
+    <Button
+        android:id="@+id/restore_all_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restore All" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <!-- ListView to display entries -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
